@@ -1,0 +1,51 @@
+.table{
+    margin: 0 20px 20px 20px;
+}
+
+[data-tag="allowRowEvents"] {
+    font-size: 15px;
+}
+
+.search-input{
+    padding: 5px;
+    width: 300px;
+    border-radius: 8px;
+    border: 2px solid gray;
+}
+.button-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.export-button-div,
+.delete-button-div{
+    margin-left: 20px
+}
+
+.export-btn,
+.delete-btn{
+    font-size: 17px;
+    font-weight:500;
+    cursor: pointer;
+    width: 100px;
+    padding: 5px;
+    margin-top: 20px;
+    float: right;    
+    border-radius: 20px;
+    border: none;
+    color: white; 
+}
+
+.export-btn{
+    background-color:darkcyan;;
+}
+.delete-btn{
+    background-color: #af2a33;
+}
+
+.export-btn:hover{
+    background-color:rgb(18, 159, 159);;
+}
+.delete-btn:hover{
+    background-color: #cb3a44;
+}

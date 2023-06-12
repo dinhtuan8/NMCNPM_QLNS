@@ -1,0 +1,65 @@
+.report{        
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+    width: 100%;
+}
+
+.filter{
+    display: flex;
+    flex-direction: row;
+    align-self:flex-end;
+    margin-right: 30px;
+}
+
+.report_title{
+    padding: 30px 20px 0 50px;
+    text-align: left;
+}
+
+.month-filter,
+.year-filter,
+.inventory,
+.sales{
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content:center;
+    font-weight: 600;
+    padding: 10px;
+}
+
+label{
+    font-weight: 600;
+    margin: 5px;
+}
+
+
+.select_button{
+    background-color: #ea4f20;    
+    border-radius: 10px;
+    width: 150px;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    border: none;
+}
+.select_button:hover{
+    background-color: #de623c;
+}
+
+.export{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    position: absolute;
+    right: 80px;
+    font-weight: 600;
+}
+
+.export_button{
+    height: inherit;
+}

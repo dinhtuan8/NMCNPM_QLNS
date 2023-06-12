@@ -1,0 +1,53 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+   
+}
+
+.book-container{
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 20px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+img.img-book{
+    width: 200px;
+  height: 250px;
+}
+
+.cart-icon{
+    border-radius: 30px;
+    border: 3px solid white;
+    background-color: var(--primary-color);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+
+}
+.bi-cart-fill{
+    color: white;
+}
+
+.title-book{
+    color: rgb(31, 30, 30);
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+h4.price-book{
+    color: firebrick;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+

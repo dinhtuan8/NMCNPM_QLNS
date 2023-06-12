@@ -1,0 +1,18 @@
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    margin-top: 40px;
+}
+
+.h1_title{
+    margin-left: 100px;
+}
+
+.button{
+    font-weight: bold;
+    color: white;
+    background-color: #9b1c25;
+    border: none;
+}

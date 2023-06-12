@@ -1,0 +1,44 @@
+.dashboard{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.grid-container-dashboard {
+    display: flex;
+    padding: 60px 40px 0px 40px;
+    justify-content: space-between;
+}
+
+.grid-item {
+    background-color: #eece62;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;    
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;    
+    font-size: 20px;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p{
+    color: rgb(26, 26, 26);
+}
+
+.icon{
+    font-size: 40px;
+}
+
+.report_table{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;    
+    height: fit-content;
+}
+

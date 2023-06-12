@@ -1,0 +1,52 @@
+footer{
+    background-color: var(--primary-color);
+    padding-top: 40px;
+    padding-bottom: 70px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem; 
+    justify-content: space-between;
+}
+
+.col{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.col p{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.payment{
+    display: flex;
+    flex-direction: row;
+}
+
+.payment img{
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.col h4{
+    font-size: 20px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+}
+
+.socialmedia i{
+    margin-right: 8px;
+    font-size: 25px;
+}

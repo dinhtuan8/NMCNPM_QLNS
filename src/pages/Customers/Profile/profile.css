@@ -1,0 +1,165 @@
+/*SIDEBAR MENU*/
+.container-fluid{
+    display: flex;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+}
+
+.sidebar{
+    background-color: rgb(45, 42, 42);
+    color: white;
+    height: 100vh;
+    width: fit-content;
+    padding: 20px;
+}
+.top_section{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.sidebar-logo,
+.sidebar-icon{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.sidebar-link{
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.sidebar-link_text{
+    margin-left: 30px;
+    font-size: 23px;
+}
+
+.sidebar-link:hover{
+    border-radius: 5px;
+    background-color: var(--primary-color);
+}
+
+/*PROFILE PAGE*/
+.profile-container{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: -100px;
+}
+.profile-content{
+    display: flex;
+    flex-direction: column;    
+    width: 80%;
+    margin-left: 100px;
+    border-radius: 8px;
+    padding: 20px;
+    height: fit-content;
+    background-color:brown;
+    margin-top: 100px;
+    color: white;
+}
+
+.img-div{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.profile-img{
+    width: 170px;
+    height: 200px;
+    border-radius: 5px;
+}
+.profile-info{
+    border-radius: 8px;
+    display: flex;
+}
+
+.profile-label{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 45%;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: -140px;
+}
+.input-profile{
+    padding: 5px;
+    border-radius: 8px;
+    width: 350px;
+    margin-top: 12px;
+    border: 1px solid gray  ;
+}
+
+.profile-user{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+}
+
+.profile-user span{
+    margin-top: 18px;
+    font-size: 17px;
+}
+.edit-profile-link{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 200px;
+    cursor: pointer;
+    color: white;
+}
+
+.bi.bi-pencil-square{
+    margin-right: 10px;
+}
+
+.save-change-profile{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: fit-content;
+    margin-right: 100px;
+}
+/*HISTORY*/
+.history-container{
+    width: 90%;
+    padding: 20px;
+}
+
+img.ordered-book{
+    width: 50px;
+    height: 70px;
+    padding: 5px;
+}
+
+.menu-option{
+    border-radius: 5px;
+    color: black;
+    
+}
+.option-top-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.option:hover{
+    background-color: lightslategray;
+}
+
+.option{
+    padding: 2px;
+}
+
+/*Cart*/
+.cart-table-item{
+    margin-top: 60px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+}
